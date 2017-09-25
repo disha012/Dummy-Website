@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>WIKI DICTIONARY</title>
+	<meta  name="description" content="WIKI DICTIONARY">
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+</head>
+<style>
+	body{
+		padding-top:40px;
+	}
+</style>
+<body data-spy="scroll" data-target="#my-navbar">
+<!- Navbar ->
+	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="" class="navbar-brand" >WiKi DiCtiOnAry</a>
+			</div>
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+				<a href="" class= "btn btn-info navbar-btn navbar-right">Download App</a>
+				<ul class="nav navbar-nav">
+					<li><a href="#feedback">Feedback</a>
+					<li><a href="#Gallery">Gallery</a>
+					<li><a href="#Features">Features</a>
+					<li><a href="#FAQ">FAQ</a>
+					<li><a href="#ContactUs">Contact Us</a>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+<div class="jumbotron">
+	<div class="container text-center">
+	<h2>WIKI DICTIONARY</h2>
+	<p>The one and only all-embracing dictionary.</p>
+	<div class="btn-group">
+		<a href="" class="btn btn-lg btn-info">Download App</a>
+		<a href="" class="btn btn-lg btn-default">Visit Store</a>
+		<a href="" class="btn btn-lg btn-info">Spread the word</a>
+	</div>
+	</div>
+</div>
+<div class ="container">
+	<section>
+	<div class="page-header" id="feedback">
+		<h2>Feedback<small>  Check out our amazing feedback</small></h2>
+	</div>	
+	<div class="row">
+		<div class="col-md-4">
+			<blockquote>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet sem elit. Etiam at nisi non tortor tempus vulputate. Vestibulum vehicula id justo at vulputate. Pellentesque interdum est porttitor blandit semper. Praesent non imperdiet ante.</p>
+				<footer>Jennifer A</footer>
+			</blockquote>
+		</div>
+		<div class="col-md-4">
+			<blockquote>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet sem elit. Etiam at nisi non tortor tempus vulputate. Vestibulum vehicula id justo at vulputate. Pellentesque interdum est porttitor blandit semper. Praesent non imperdiet ante.</p>
+				<footer>Vince G</footer>
+			</blockquote>
+		</div>
+		<div class="col-md-4">
+			<blockquote>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet sem elit. Etiam at nisi non tortor tempus vulputate. Vestibulum vehicula id justo at vulputate. Pellentesque interdum est porttitor blandit semper. Praesent non imperdiet ante.</p>
+				<footer>Brian C</footer>
+			</blockquote>
+		</div>
+	</div>
+
+	</section>
+</div>
+
+<section>
+	<div class="well">
+		<div class="container text-center">
+			<h3>Subscribe for more free stuff</h3>
+			<p>Enter your name and email</p>
+			<form action="" class="form-inline">
+				<div class="form-group">
+					<label for="subscription">Subscribe</label>
+					<input type="text" class="form-control" id="subscription" placeholder="Your Name">
+				</div>
+				<div class="form-group">
+					<label for="email">Email Address</label>
+					<input type="text" class="form-control" id="email" placeholder="Your Email Address">
+				</div>
+				<button type="submit" class="btn btn-info">Subscribe</button>
+			</form>
+		</div>
+	</div>
+</section>
+
+<div class="container">
+	<section>
+		<div class="page-header" id="Gallery">
+		<h2>Gallery<small> Check out our amazing gallery</small></h2>
+	</div>	
+		<div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#screenshot-carousel" data-slide-to="0" class ="active"></li>
+				<li data-target="#screenshot-carousel" data-slide-to="1"></li>
+				<li data-target="#screenshot-carousel" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="highway.jpeg" alt="highway" style="float: middle">
+					<div class="carousel-caption">
+						<h3>highway</h3>
+						<p>this is a caption</p>
+					</div>
+				</div>
+				<div class="item">
+					<img src="images.jpg" alt="DICTIONARY">
+					<div class="carousel-caption">
+						<h3>dictionary</h3>
+						<p>this is a caption</p>
+					</div>
+				</div>
+				<div class="item">
+					<img src="html.jpg" alt="HTML" >
+					<div class="carousel-caption">
+						<h3>HTML</h3>
+						<p>this is a caption</p>
+					</div>
+				</div>
+			</div>
+			<div>
+				<a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+			</div>
+		</div>
+
+	</section>
+	
+</div>
+
+
+<div class="container">
+	<section>
+		<div class="page-header" id="Features">
+		<h2>Features<small>  Check out our amazing features</small></h2>
+		</div>	
+		<div class="row">
+			<div class="col-sm-8">
+				<h3>This is the heading</h3>
+				<p>Duis pharetra venenatis tortor, in scelerisque mi volutpat a. Proin congue sit amet est eu finibus. In fermentum condimentum mi, vitae suscipit sem pulvinar vel.</p>
+			</div>
+			<div class=col-sm-4>
+				<img src="people.png" alt="people" class="img-responsive">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-8">
+				<h3>This is the heading</h3>
+				<p>Duis pharetra venenatis tortor, in scelerisque mi volutpat a. Proin congue sit amet est eu finibus. In fermentum condimentum mi, vitae suscipit sem pulvinar vel.</p>
+			</div>
+			<div class=col-sm-4>
+				<img src="code.jpg" alt="code" class="img-responsive">
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="panel panel-default text-center">
+					<div class="panel-body">
+						<span class="glyphicon glyphicon-envelope"></span>
+						<h4>This is a haeding</h4>
+						<p>Ut a ante urna. Aliquam in justo dui. Morbi varius vel felis at dignissim. Nam molestie turpis cursus augue accumsan bibendum. Suspendisse vestibulum orci in purus iaculis volutpat. Nam eu velit orci.</p>
+					</div>
+				</div>
+			</div>
+		
+		
+			<div class="col-sm-4">
+				<div class="panel panel-default text-center">
+					<div class="panel-body">
+						<span class="glyphicon glyphicon-pencil"></span>
+						<h4>This is a haeding</h4>
+						<p>Ut a ante urna. Aliquam in justo dui. Morbi varius vel felis at dignissim. Nam molestie turpis cursus augue accumsan bibendum. Suspendisse vestibulum orci in purus iaculis volutpat. Nam eu velit orci.</p>
+					</div>
+				</div>
+			</div>
+		
+		
+			<div class="col-sm-4">
+				<div class="panel panel-default text-center">
+					<div class="panel-body">
+						<span class ="glyphicon glyphicon-asterisk"></span>
+						<h4>This is a haeding</h4>
+						<p>Ut a ante urna. Aliquam in justo dui. Morbi varius vel felis at dignissim. Nam molestie turpis cursus augue accumsan bibendum. Suspendisse vestibulum orci in purus iaculis volutpat. Nam eu velit orci.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+
+<div class="container">
+	<section>
+		<div class="page-header" id="FAQ">
+		<h2>FAQ<small> General Questions you may have </small></h2>
+		</div>
+		<div class="panel-group" id="accordion">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<div class="panel-title">
+						<a href="#collapse-1" data-toggle="collapse" data-parent="#accordion">
+							Qusetion 1:
+						</a>
+					</div>
+					<div id="collapse-1" class="panel-collapse collapse in">
+						<div class="panel-body">
+							<p>Nulla facilisi. Fusce malesuada vulputate consequat. Nullam sed vehicula mi. Sed interdum mi at justo consectetur, in pellentesque nunc egestas.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<div class="panel-title">
+						<a href="#collapse-2" data-toggle="collapse" data-parent="#accordion">
+							Qusetion 2:
+						</a>
+					</div>
+					<div id="collapse-2" class="panel-collapse collapse">
+						<div class="panel-body">
+							<p>Nulla facilisi. Fusce malesuada vulputate consequat. Nullam sed vehicula mi. Sed interdum mi at justo consectetur, in pellentesque nunc egestas.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<div class="panel-title">
+						<a href="#collapse-3" data-toggle="collapse" data-parent="#accordion">
+							Qusetion 3:
+						</a>
+					</div>
+					<div id="collapse-3" class="panel-collapse collapse">
+						<div class="panel-body">
+							<p>Nulla facilisi. Fusce malesuada vulputate consequat. Nullam sed vehicula mi. Sed interdum mi at justo consectetur, in pellentesque nunc egestas.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+	</section>
+</div>
+
+<div class="container">
+	<section>
+		<div class="page-header" id="ContactUs">
+		<h2>Contact Us<small> Contact us for more info </small></h2>
+		</div>
+		<div class="row">
+			<div class="col-lg-4">
+				<p>Send us a message or contact us from the message below</p>
+				<address>
+					<strong>ABC PVT.LTD.</strong><br>
+					101 road, suifyugf<br>
+					kzuge  iusgihhfg 23<br>
+					Mumbai 400001<br>
+				</address>
+			</div>
+			<div class="col-lg-8">
+				<form action="" class="form-horizontal">
+					<div class="form-group">
+					<label for="user-name" class="col-lg-2 control-label">Name</label>
+					<div class="col-lg-10">
+						<input type="text" class="form-control" id="user-name" placeholder="Enter your name">
+					</div>
+					</div>
+					<div class="form-group">
+					<label for="user-email" class="col-lg-2 control-label">Email</label>
+					<div class="col-lg-10">
+						<input type="text" class="form-control" id="user-email" placeholder="Enter your email">
+					</div>
+					</div>
+					<div class="form-group">
+					<label for="user-url" class="col-lg-2 control-label">Url of your website</label>
+					<div class="col-lg-10">
+						<input type="text" class="form-control" id="user-url" placeholder="If you have any">
+					</div>
+					</div>
+					<div class="form-group">
+					<label for="user-msg" class="col-lg-2 control-label">Message</label>
+					<div class="col-lg-10">
+						<textarea name="user-msg" class="form-control" id="user-msg" cols="20" rows="10" placeholder="Enter your message"></textarea>
+					</div>
+					</div>
+					<div class="form-group">
+						<div class ="col-lg-8 col-lg-offset-2">
+							<button type="submit" class="btn btn-primary">Submit</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+
+	</section>
+</div>
+<hr>
+
+<footer>
+<div class="container text-center">
+			<h3>Subscribe for more free stuff</h3>
+			<p>Enter your name and email</p>
+			<form action="" class="form-inline">
+				<div class="form-group">
+					<label for="subscription">Subscribe</label>
+					<input type="text" class="form-control" id="subscription" placeholder="Your Name">
+				</div>
+				<div class="form-group">
+					<label for="email">Email Address</label>
+					<input type="text" class="form-control" id="email" placeholder="Your Email Address">
+				</div>
+				<button type="submit" class="btn btn-info">Subscribe</button>
+			</form>
+			<hr>
+			<ul class="list-inline">
+				<li><a href="http://www.twitter.com/wikidic">Twitter</a></li>
+				<li><a href="http://www.facebook.com/wikidic">Facebook</a></li>
+				<li><a href="http://www.youtube.com/wikidic">YouTube</a></li>
+			</ul>
+			<p>&copy; Copyright @2017</p>
+		</div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
