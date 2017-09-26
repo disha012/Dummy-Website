@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>WIKI DICTIONARY</title>
-	<meta  name="description" content="WIKI DICTIONARY">
+	<title>DUMMY WEBSITE</title>
+	<meta  name="description" content="DUMMY WEBSITE">
 	<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -26,7 +26,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a href="" class="navbar-brand" >WiKi DiCtiOnAry</a>
+				<a href="" class="navbar-brand" >DuMmy WeBsItE</a>
 			</div>
 			<div class="collapse navbar-collapse" id="navbar-collapse">
 				<a href="" class= "btn btn-info navbar-btn navbar-right">Download App</a>
@@ -43,8 +43,8 @@
 
 <div class="jumbotron">
 	<div class="container text-center">
-	<h2>WIKI DICTIONARY</h2>
-	<p>The one and only all-embracing dictionary.</p>
+	<h2>DUMMY WEBSITE</h2>
+	<p>The one and only all-embracing website.</p>
 	<div class="btn-group">
 		<a href="" class="btn btn-lg btn-info">Download App</a>
 		<a href="" class="btn btn-lg btn-default">Visit Store</a>
